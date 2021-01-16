@@ -1,0 +1,89 @@
+body {
+    font-family: "Harmattan", sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 428px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+        circle,
+        rgba(63, 94, 251, 1) 0%,
+        rgba(252, 70, 107, 1) 100%
+    );
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search {
+    font-size: 1.2em;
+    padding: 0.3em;
+    border-radius: 110px;
+    border: 1px solid yellow;
+    outline: none;
+    background: none;
+    background-color: black;
+    color: #fff;
+    padding-left: 1em;
+    /* text-align: center; */
+}
+
+i {
+    font-size: 1.5em;
+}
+
+.contact-name {
+    font-size: 1.2em;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr {
+    border: 1px solid rgb(75, 75, 75);
+}
+.list-item {
+    color: aliceblue;
+    list-style: none;
+}
+
+.relationship {
+    width: 6em;
+    text-align: center;
+    padding: 0.4em 0.5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: rgba(252, 70, 107, 1);
+    font-size: 0.8em;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+.contact-section:hover {
+    background-color: #48494a;
+}
+
+.text {
+    padding-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

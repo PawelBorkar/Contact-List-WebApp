@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans SC", serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 428px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.hero {
+    color: #fff;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+    );
+    padding: 2em 0;
+}
+.back-btn {
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+.hero-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i {
+    font-size: 1.5em;
+}
+.relationship {
+    width: 6em;
+    text-align: center;
+    padding: 0.4em 0.5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: rgba(252, 70, 107, 1);
+    font-size: 0.8em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: #fff;
+    text-decoration: none;
+    padding: 2em;
+    text-align: center;
+}
+
+.button-container {
+    padding: 2em 3.5em;
+}
+.delete-contact {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 14px 14px 27px #0c0c0c, -14px -14px 27px #2e2e2e;
+}
+.button {
+    border: none;
+    font-size: 1.3em;
+    padding-left: 1.5em;
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+}
